@@ -1,0 +1,33 @@
+1. Features
+- Register and view complainants
+- Submit complaints with category and priority
+- Generate unique complaint IDs
+- Assign complaints to staff members
+- Track complaint status and resolution notes
+- Add comments and updates
+- Prevent invalid status transitions
+- Search complaints by ID or status
+- Generate complaint summary reports
+- Store data in JSON files
+
+2. Project structure
+complaint_management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── complainant_manager.py
+├── complaint_manager.py
+├── staff_manager.py
+├── comment_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── complainants.json
+    ├── complaints.json
+    ├── staff.json
+    └── comments.json
